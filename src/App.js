@@ -1,13 +1,14 @@
-import Arena from './components/questao1/Arena';
-import Arena04 from './components/questao4/Arena';
-import World from './components/questao3/World';
-import Hero from './components/questao1/Hero';
-import Enemy from './components/questao1/Enemy';
-import {Hero_url, Enemy_url} from './components/questao2/caminhos'
+// import Arena from './components/questao1/Arena';
+// import Arena04 from './components/questao4/Arena';
+// import World from './components/questao3/World';
+// import Hero from './components/questao1/Hero';
+// import Enemy from './components/questao1/Enemy';
+// import {Hero_url, Enemy_url} from './components/questao2/caminhos'
+import Cidades from "./components/Atividade03/cidadeSimples";
 function App() {
   return (
    <div>
-     <h1>Questão 01</h1>
+     {/* <h1>Questão 01</h1>
      <Arena/>
     <hr/>
     <h1>Questão 03</h1>
@@ -37,7 +38,8 @@ function App() {
           <Hero name="Sicrano de Tal" url={Hero_url}/>
           <Enemy name="Fulano de Tal" url={Enemy_url}/>
         </Arena04>
-      </World>
+      </World> */}
+      <Cidades/>
    </div>
   );
 }
