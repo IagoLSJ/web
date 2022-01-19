@@ -1,0 +1,29 @@
+{
+  "disciplinas": [],
+  "estudantes": [
+    {
+      "nome": "Rodrigo",
+      "IRA": 9.7
+    },
+    {
+      "nome": "Carla",
+      "IRA": 8.5
+    },
+    {
+      "nome": "Matheus",
+      "IRA": 5.5
+    },
+    {
+      "nome": "Jean",
+      "IRA": 6.5
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "Cálculo II",
+      "curso": "Matemática Computacional",
+      "capacidade": 60,
+      "id": 2
+    }
+  ]
+}
